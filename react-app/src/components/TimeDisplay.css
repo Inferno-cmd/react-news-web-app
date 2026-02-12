@@ -1,0 +1,43 @@
+.time-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 12px;
+  color: white;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.time-display .time {
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: 'Courier New', monospace;
+  letter-spacing: 0.1em;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.time-display .date {
+  font-size: 1.2rem;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  opacity: 0.95;
+}
+
+@media (max-width: 768px) {
+  .time-display {
+    padding: 1.5rem;
+  }
+
+  .time-display .time {
+    font-size: 2.5rem;
+  }
+
+  .time-display .date {
+    font-size: 1rem;
+  }
+}

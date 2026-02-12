@@ -1,0 +1,202 @@
+.post-details-page {
+  min-height: 100vh;
+  background: #f5f7fa;
+  padding: 2rem 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.back-link {
+  display: inline-block;
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  transition: color 0.3s;
+}
+
+.back-link:hover {
+  color: #764ba2;
+}
+
+.post-details {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.badge-jobs {
+  background: #e3f2fd;
+  color: #1976d2;
+}
+
+.badge-rentals {
+  background: #f3e5f5;
+  color: #7b1fa2;
+}
+
+.badge-events {
+  background: #e8f5e9;
+  color: #388e3c;
+}
+
+.badge-announcements {
+  background: #fff3e0;
+  color: #f57c00;
+}
+
+.badge-lost & found {
+  background: #fce4ec;
+  color: #c2185b;
+}
+
+.date {
+  color: #999;
+  font-size: 0.95rem;
+}
+
+.post-details h1 {
+  font-size: 2.2rem;
+  margin: 0 0 1.5rem 0;
+  color: #333;
+  line-height: 1.3;
+}
+
+.post-meta {
+  display: flex;
+  gap: 2rem;
+  margin: 1.5rem 0 2rem 0;
+  padding: 1.5rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+.meta-item {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.meta-item .label {
+  font-weight: 600;
+  color: #333;
+  min-width: 80px;
+}
+
+.post-content {
+  margin: 2rem 0;
+}
+
+.post-content h2 {
+  font-size: 1.3rem;
+  margin: 0 0 1rem 0;
+  color: #333;
+}
+
+.post-content p {
+  line-height: 1.8;
+  color: #555;
+  margin: 0;
+}
+
+.post-contact-section {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 2px solid #eee;
+}
+
+.post-contact-section h2 {
+  font-size: 1.3rem;
+  margin: 0 0 1.5rem 0;
+  color: #333;
+}
+
+.contact-methods {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.phone-link {
+  background: #2196F3;
+}
+
+.phone-link:hover {
+  background: #1976D2;
+}
+
+.email-link {
+  background: #F44336;
+}
+
+.email-link:hover {
+  background: #D32F2F;
+}
+
+.whatsapp-link {
+  background: #25D366;
+}
+
+.whatsapp-link:hover {
+  background: #1FA856;
+}
+
+.loading,
+.not-found {
+  text-align: center;
+  padding: 3rem;
+  background: white;
+  border-radius: 8px;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .post-details {
+    padding: 1.5rem;
+  }
+
+  .post-details h1 {
+    font-size: 1.7rem;
+  }
+
+  .post-meta {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .contact-link {
+    flex-direction: column;
+    text-align: center;
+  }
+}

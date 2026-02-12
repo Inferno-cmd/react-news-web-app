@@ -1,0 +1,109 @@
+.post-card {
+  display: block;
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  border: 1px solid #eee;
+}
+
+.post-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  transform: translateY(-4px);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.badge-jobs {
+  background: #e3f2fd;
+  color: #1976d2;
+}
+
+.badge-rentals {
+  background: #f3e5f5;
+  color: #7b1fa2;
+}
+
+.badge-events {
+  background: #e8f5e9;
+  color: #388e3c;
+}
+
+.badge-announcements {
+  background: #fff3e0;
+  color: #f57c00;
+}
+
+.badge-lost & found {
+  background: #fce4ec;
+  color: #c2185b;
+}
+
+.date {
+  font-size: 0.85rem;
+  color: #999;
+}
+
+.post-card h3 {
+  margin: 0.5rem 0 1rem 0;
+  font-size: 1.3rem;
+  color: #333;
+  line-height: 1.4;
+}
+
+.description {
+  color: #666;
+  margin: 0.5rem 0;
+  line-height: 1.6;
+}
+
+.location {
+  color: #667eea;
+  font-size: 0.95rem;
+  margin: 0.5rem 0;
+}
+
+.card-footer {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.read-more {
+  color: #667eea;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.post-card:hover .read-more {
+  color: #764ba2;
+}
+
+@media (max-width: 768px) {
+  .post-card {
+    padding: 1rem;
+  }
+
+  .post-card h3 {
+    font-size: 1.1rem;
+  }
+}

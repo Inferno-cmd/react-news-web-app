@@ -1,0 +1,11 @@
+.submit-post-page {
+  min-height: 100vh;
+  background: #f5f7fa;
+  padding: 2rem 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
